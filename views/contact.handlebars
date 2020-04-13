@@ -1,8 +1,10 @@
-<div class="row justify-content-md-center">
+<div class="row my-auto justify-content-md-center">
   <form method="POST" action="/send" id="contactForm">
     <h1 id="title">Contact</h1>
     <br />
-    <h6 class="row">{{msg}}</h6>
+    <div class="form-group">
+      <h4 class="row justify-content-md-center">{{msg}}</h4>
+    </div>
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputFName">First name</label>
@@ -16,7 +18,7 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputEmail">Email address</label>
-        <input type="email" class="form-control" name="fName">
+        <input type="email" class="form-control" name="email">
       </div>
       <div class="form-group col-md-6">
         <label for="inputPhone">Phone number</label>
