@@ -1,0 +1,30 @@
+{
+  "name": "mbilizi-janvier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janviermbilizi/mbilizi-janvier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Janviermbilizi/mbilizi-janvier/issues"
+  },
+  "homepage": "https://github.com/Janviermbilizi/mbilizi-janvier#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.1.0",
+    "joi": "^14.3.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.6",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.6"
+  }
+}

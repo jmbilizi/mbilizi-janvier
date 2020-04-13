@@ -1,0 +1,219 @@
+/*body's style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background: #efefef;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gree-box {
+  background-color: teal;
+  height: 110px;
+  width: 300px;
+  padding-top: 32px;
+  text-align: center;
+  font-size: 200%;
+}
+.gree-box a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* .custom-height {
+  height: 120px;
+} */
+
+.navbar-stuff {
+  padding-top: 40px;
+}
+/* The container of Index.html and contact.html's style */
+#containerAbout {
+  background: #ffffff;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 5%;
+  border-color: #dddddd;
+  margin-top: 50px;
+  flex: 1 0 auto;
+}
+
+#profil {
+  width: 220px;
+  height: 270px;
+  float: left;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#Bio {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* links container*/
+#links {
+  background: #ffffff;
+  margin-bottom: 11%;
+  justify-content: center;
+  border-color: #dddddd;
+}
+.linkImg {
+  width: 100px;
+  height: 100px;
+}
+/* The style for all the head title, About ME, Contact and Portfolio*/
+
+#title {
+  width: 100%;
+  height: 60px;
+  line-height: 40px;
+  color: teal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 2px solid #d3cece;
+  text-align: center;
+}
+/* styles for the contact form and everything inside the form*/
+form {
+  background: #ffffff;
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+  margin-bottom: 11.5%;
+  border-color: #dddddd;
+  margin-top: 50px;
+}
+
+textarea {
+  width: 100%;
+  height: 105px;
+  resize: vertical;
+  max-height: 110px;
+  font-size: 14px;
+  border-color: #dddddd;
+}
+input,
+textarea {
+  outline-color: #dddddd;
+}
+#Submit {
+  background-color: teal;
+}
+#Submit:hover {
+  background-color: gray;
+}
+
+#container2 {
+  background: #ffffff;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 12%;
+  border-color: #dddddd;
+  margin-top: 50px;
+  flex: 1 0 auto;
+}
+
+.pf {
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.pftitle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: teal;
+  width: 94%;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+.pftitle a {
+  color: white;
+  text-decoration: none;
+}
+.pftitle a:hover {
+  background-color: white;
+  color: teal;
+}
+
+img {
+  padding: 10px;
+  margin: 0px;
+  width: 320px;
+  height: 200px;
+  float: left;
+}
+
+/* Footer's style */
+
+#footer {
+  flex-shrink: 0;
+  color: #ffffff;
+  background: gray;
+  height: 80px;
+  line-height: 70px;
+  text-align: center;
+  bottom: 0;
+  padding-bottom: 0;
+  border-top: 8px solid teal;
+}
+
+/* screen response based on size*/
+
+@media only screen and (max-width: 640px) {
+  .gree-box {
+    width: 100%;
+    margin-left: 0;
+    font-size: 250%;
+  }
+  .navbar-stuff {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gree-box {
+    width: 100%;
+    margin-left: 0;
+    font-size: 250%;
+  }
+  .navbar-stuff {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .gree-box {
+    width: 100%;
+    margin-left: 0;
+    font-size: 250%;
+  }
+  .navbar-stuff {
+    text-align: center;
+  }
+  #profil {
+    float: center;
+  }
+}
