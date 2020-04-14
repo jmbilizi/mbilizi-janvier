@@ -48,9 +48,9 @@ router.post("/send", function (req, res) {
     // host: "smtp.ethereal.email",
     // port: 587,
     // secure: false, // true for 465, false for other ports
-    service: "smtp.gmail.com",
-    port: 465,
-    secure: true,
+    service: "gmail",
+    port: 587,
+    secure: false,
     auth: {
       user: "janviermbilizi@gmail.com", // generated ethereal user
       pass: "janixsto", // generated ethereal password
