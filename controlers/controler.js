@@ -38,10 +38,10 @@ router.post("/send", function (req, res) {
   const autoEmail = `
   <h3>Contact request confirmation</h3>
   <p>Hey ${req.body.fName},</p>
-  <p>Thank you for submitting your request. I will get back to you as sooner as possible through this email or your phone number: ${req.body.phone}. if your phone number has changed, please email me back with your new phone number.</p>
+  <p>Thank you for submitting your request. I will get back to you as soon as possible through this email or phone number: ${req.body.phone}. if your phone number has changed, please email me back with your new phone number.</p>
   <p>Thank you,</p>
   <p>Janvier Mbilizi</p>
-  <p>Full stack software engineer</p>
+  <p>Full Stack Web Developer</p>
   `;
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
@@ -84,7 +84,7 @@ router.post("/send", function (req, res) {
     // Preview only available when sending through an Ethereal account
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
     res.render("contact", {
-      msg: "Contact request has been submitted!",
+      msg: "Request submitted! Thank you " + req.body.fName,
     });
   });
   //send an inform the team or me that someone request to be
