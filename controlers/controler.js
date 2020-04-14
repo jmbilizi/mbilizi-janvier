@@ -50,7 +50,7 @@ router.post("/send", function (req, res) {
     // secure: false, // true for 465, false for other ports
     service: "gmail",
     port: 587,
-    secure: false,
+    secure: true,
     auth: {
       user: "janviermbilizi@gmail.com", // generated ethereal user
       pass: "janixsto", // generated ethereal password
