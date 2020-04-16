@@ -207,7 +207,14 @@ img {
   .navbar-stuff {
     text-align: center;
   }
+  #Bio {
+    float: left;
+  }
   #profil {
-    float: center;
+    float: none;
+    justify-content: center;
+    width: 70%;
+    margin-left: 16%;
+    border-radius: 50%;
   }
 }
