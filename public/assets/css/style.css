@@ -120,6 +120,9 @@ textarea {
 .pf:hover {
   background-color: gray;
 }
+.linkImg:hover {
+  background-color: gray;
+}
 #container2 {
   background: #ffffff;
   width: 70%;
