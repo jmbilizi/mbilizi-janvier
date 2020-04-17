@@ -112,10 +112,14 @@ textarea {
 #Submit {
   background-color: teal;
 }
+
+/* hovers */
 #Submit:hover {
   background-color: gray;
 }
-
+.pf:hover {
+  background-color: gray;
+}
 #container2 {
   background: #ffffff;
   width: 70%;
