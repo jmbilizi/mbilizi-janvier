@@ -123,9 +123,7 @@ textarea {
 .linkImg:hover {
   background-color: gray;
 }
-.linkImg:hover {
-  background-color: gray;
-}
+
 #container2 {
   background: #ffffff;
   width: 70%;
@@ -151,14 +149,8 @@ textarea {
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0;
-}
-.pftitle a {
   color: white;
   text-decoration: none;
-}
-.pftitle a:hover {
-  background-color: white;
-  color: teal;
 }
 
 img {
