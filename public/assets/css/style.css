@@ -79,7 +79,7 @@ p {
 }
 /* The style for all the head title, About ME, Contact and Portfolio*/
 
-#title {
+.title {
   width: 100%;
   height: 60px;
   line-height: 40px;
@@ -136,6 +136,8 @@ textarea {
   position: relative;
   float: left;
   text-align: center;
+  margin: auto;
+  padding: auto;
 }
 .pftitle {
   position: absolute;
