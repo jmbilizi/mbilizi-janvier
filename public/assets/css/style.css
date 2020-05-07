@@ -117,7 +117,8 @@ textarea {
 #Submit:hover {
   background-color: gray;
 }
-.pf:hover {
+
+button:hover {
   background-color: gray;
 }
 .linkImg:hover {
