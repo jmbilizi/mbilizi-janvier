@@ -121,6 +121,10 @@ textarea {
 button:hover {
   background-color: gray;
 }
+button {
+  margin-bottom: 20px;
+}
+
 .linkImg:hover {
   background-color: gray;
 }
