@@ -23,6 +23,9 @@ body {
   text-align: center;
   font-size: 200%;
 }
+.gree-box :hover {
+  background-color: green;
+}
 .gree-box a {
   color: white;
   text-decoration: none;
@@ -73,6 +76,15 @@ p {
   justify-content: center;
   border-color: #dddddd;
 }
+#contacts {
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  color: teal;
+  font-size: 25px;
+}
 .linkImg {
   width: 100px;
   height: 100px;
@@ -91,9 +103,9 @@ p {
 /* styles for the contact form and everything inside the form*/
 form {
   background: #ffffff;
-  width: 60%;
+  width: 90%;
   margin: auto;
-  padding: 40px;
+  padding: 30px;
   border-color: #dddddd;
 }
 
@@ -194,6 +206,12 @@ img {
   }
 }
 
+@media only screen and (max-width: 995px) {
+  #contacts {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 768px) {
   .gree-box {
     width: 100%;
@@ -218,6 +236,10 @@ img {
   #Bio {
     float: left;
     text-align: center;
+  }
+  #contacts {
+    margin-right: 10px;
+    margin-left: 10px;
   }
   #profil {
     float: none;

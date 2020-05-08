@@ -1,38 +1,45 @@
-<div class="row my-auto justify-content-md-center">
-  <form method="POST" action="/send" id="contactForm">
-    <h1 class="title">Contact</h1>
-    <br />
-    <div class="form-group">
-      <h4 class="row justify-content-md-center">{{msg}}</h4>
+<div class="container my-auto justify-content-md-center">
+  <div class="row justify-content-center">
+    <div>
+      <h6 id="contacts"> Denver, CO. 80014 | Phone: 540-236-2223 | Email: janviermbilizi@gmail.com</h6>
     </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputFName">First name</label>
-        <input type="text" class="form-control" name="fName">
+  </div>
+  <div class="row">
+    <form method="POST" action="/send" id="contactForm">
+      <h1 class="title">Contact Me</h1>
+      <br />
+      <div class="form-group">
+        <h4 class="row justify-content-md-center">{{msg}}</h4>
       </div>
-      <div class="form-group col-md-6">
-        <label for="inputLName">Last name</label>
-        <input type="text" class="form-control" name="lName">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputFName">First name</label>
+          <input type="text" class="form-control" name="fName">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputLName">Last name</label>
+          <input type="text" class="form-control" name="lName">
+        </div>
       </div>
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail">Email address</label>
-        <input type="email" class="form-control" name="email">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email address</label>
+          <input type="email" class="form-control" name="email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPhone">Phone number</label>
+          <input type="phone" class="form-control" name="phone">
+        </div>
       </div>
-      <div class="form-group col-md-6">
-        <label for="inputPhone">Phone number</label>
-        <input type="phone" class="form-control" name="phone">
+      <div class="form-group">
+        <label for="inputCompanyName">Company name</label>
+        <input type="text" class="form-control" name="company">
       </div>
-    </div>
-    <div class="form-group">
-      <label for="inputCompanyName">Company name</label>
-      <input type="text" class="form-control" name="company">
-    </div>
-    <div class="form-group">
-      <label for="inputMessage">Message</label>
-      <textarea type="text" class="form-control" name="message"></textarea>
-    </div>
-    <button class="btn btn-primary btn-lg btn-block" id="Submit" type="submit">Submit</button>
-  </form>
+      <div class="form-group">
+        <label for="inputMessage">Message</label>
+        <textarea type="text" class="form-control" name="message"></textarea>
+      </div>
+      <button class="btn btn-primary btn-lg btn-block" id="Submit" type="submit">Submit</button>
+    </form>
+  </div>
 </div>
