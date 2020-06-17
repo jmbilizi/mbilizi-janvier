@@ -44,9 +44,8 @@ body {
   background: #ffffff;
   width: 70%;
   padding: 20px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   border-color: #dddddd;
-  margin-top: 50px;
   flex: 1 0 auto;
 }
 
@@ -72,7 +71,7 @@ p {
 /* links container*/
 #links {
   background: #ffffff;
-  margin-bottom: 11%;
+  /* margin-bottom: 8%; */
   justify-content: center;
   border-color: #dddddd;
 }
